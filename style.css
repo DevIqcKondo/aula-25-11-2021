@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Outfit&display=swap');
+:root {
+    --cor-fundo: #009DAE;
+    --cor-letra: #C2FFF9;
+    --cor-form: #2E4C6D;
+}
+body {
+    font-size: 16px;
+    max-width: 30rem;
+    margin: 0 auto;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-letra);
+}
+form {
+    display: flex;
+    flex-direction: column;
+
+}
+form > * {
+ margin: 0.25em;
+}
+form button {
+    padding: 0.8em;
+
+}
+form input {
+    font-size: 1.25em;
+}
+#mensagem {
+    margin: 1em;
+    text-align: center;
+}
+#mensagem > * {
+    text-align: center;
+
+}
+h1 {
+    font-family: 'Kanit', sans-serif;
+}
+button, input {
+    font-family: inherit;
+    color: var(--cor-form);
+}
+input {
+    outline: none;
+    padding: 0.25em;
+    border-radius: 5px;
+}
+button {
+    cursor: pointer;
+}
+button:hover {
+background-color: var(--cor-letra);
+box-shadow: 5px 5px 0 var(--cor-form);
+}
