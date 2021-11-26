@@ -11,7 +11,14 @@ const processar = (event) => {
 
     const nomecompleto = "Isadora Kondo";
     const nomecatalogo = "KONDO, Isadora";
-
+//
+fetch('/Nome', {
+    method: 'POST',
+    headers: {
+        "Content-Type": "Aplication/json",
+    }
+    //PAREI AQUI SOCORRROOOOOOOOOOOOO
+})
     const mensagem = document.querySelector('#mensagem');
     mensagem.innerHTML = `
     <div>Nome Completo = ${nomecompleto}</div>
