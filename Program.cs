@@ -7,13 +7,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace aula_25_11_2021
+namespace NomeCompletoDevWeb
 {
     public class Program
     {
         public static void Main(string[] args)
         {
-            
             CreateHostBuilder(args).Build().Run();
         }
 

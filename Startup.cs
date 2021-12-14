@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace aula_25_11_2021
+namespace NomeCompletoDevWeb
 {
     public class Startup
     {
@@ -38,9 +38,9 @@ namespace aula_25_11_2021
 
             app.UseHttpsRedirection();
 
-            app.UseStaticFiles();
             app.UseDefaultFiles();
-
+            app.UseStaticFiles();
+            
             app.UseRouting();
 
             app.UseAuthorization();
